@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import PizzaListContainer from './components/PizzaListContainer';
+import PizzaDetailsContainer from './components/PizzaDetailsContainer';
 
 function App() {
   return (
@@ -10,7 +12,8 @@ function App() {
       </header>
       
       <main>
-
+        <PizzaListContainer />
+        <PizzaDetailsContainer />
       </main>
     </div>
   );
